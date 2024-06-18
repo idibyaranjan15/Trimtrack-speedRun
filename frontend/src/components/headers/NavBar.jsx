@@ -172,8 +172,8 @@ const NavBar = () => {
                                     user ? null : isLogin ? <li>
                                         <NavLink
                                             to='/register'
-                                            className={({ isActive }) => `font-bold ${isActive ? 'text-secondary' : `${navBg.includes('bg-transparent') ? 'text-white' : 'text-black dark:text-white'}`} hover:text-secondary duration-300`}
-                                        >Register</NavLink></li> : <li>
+                                            className={({ isActive }) => `font-bold ${isActive ? 'text-secondary' : `${navBg.includes('bg-transparent') ? 'text-secondary' : 'text-black dark:text-white'}`} hover:text-secondary duration-300`}
+                                        >Register as Admin</NavLink></li> : <li>
                                         <NavLink
                                             to='/login'
                                             className={({ isActive }) => `font-bold ${isActive ? 'text-secondary' : `${navBg.includes('bg-transparent') ? 'text-white' : 'text-black dark:text-white'}`} hover:text-secondary duration-300`}

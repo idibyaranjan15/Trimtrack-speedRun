@@ -37,9 +37,7 @@ const ShowInstructors = () => {
                                             </tr>
                                         </tbody></table>
 
-                                    <div className="text-center my-3">
-                                        <a className="text-xs text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium" href="pages/class/${cls._id}">View Profile</a>
-                                    </div>
+
 
                                 </div>
                             </div>

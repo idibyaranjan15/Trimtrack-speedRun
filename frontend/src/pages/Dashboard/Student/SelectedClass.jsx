@@ -102,7 +102,7 @@ const SelectedClass = () => {
     return (
         <div>
             <div className="my-6">
-                <h1 className='text-4xl text-center font-bold'>My <span className='text-secondary'>Selected</span> Class</h1>
+                <h1 className='text-4xl text-center font-bold'> <span className='text-secondary'>Selected</span> Appointments</h1>
             </div>
             <div className="h-screen py-8">
                 <div className="container mx-auto px-4">
